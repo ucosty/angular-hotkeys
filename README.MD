@@ -1,19 +1,20 @@
-# angular2-hotkeys
-Angular 2.4.x Compatible (v1.x.x)
-Angular 4.0.0-beta.x Compatible (v2.x.x)
+# angular-hotkeys
+Angular 6.0 compatible
+Cloned from https://github.com/brtnshrdr/angular2-hotkeys
+
 ## Installation
 
 To install this library, run:
 
 ```bash
-$ npm install angular2-hotkeys --save
+$ npm install @ucosty/angular-hotkeys --save
 ```
 
 ## Examples
 First, import the HotkeyModule into your root AppModule
 
 ```typescript
-import {HotkeyModule} from 'angular2-hotkeys';
+import {HotkeyModule} from '@ucosty/angular-hotkeys';
 ```
 
 Then, add HotkeyModule.forRoot() to your AppModule's import array
